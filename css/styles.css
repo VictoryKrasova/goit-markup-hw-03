@@ -1,0 +1,231 @@
+:root {
+  --prime-color-font: #2e2f42;
+  --color-hover: #404bbf;
+  --ptimary-brand: #4d5ae5;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8a8f99;
+  --light: #f4f4fd;
+  --white-text-color: #ffffff;
+
+  --main-font: "Roboto", sans-serif;
+  --secondary_font: "Raleway", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--prime-color-font);
+  background-color: var(--white-text-color);
+  color: var(--text);
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* ================Header ================*/
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prime-color-font);
+ 
+}
+.menu-link.current{
+  color: var( --color-hover);
+}
+
+.addres-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prime-color-font);
+}
+
+.logo {
+  width: 71px;
+  height: 24px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.span-web {
+  color: #4d5ae5;
+}
+
+.span-studio {
+  color: var(--prime-color-font);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--color-hover);
+}
+
+.addres-link:hover,
+.addres-link:focus {
+  color: var(--color-hover);
+}
+
+
+.modal-btn {
+  color: #ffffff;
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.04em;
+font-weight: 500;
+font-family: 'Roboto';
+font-family: inherit;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #404bbf;
+}
+
+/* ================HERO ================ */
+
+.main-header {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  
+}
+
+.hero{
+
+  background-color: #2e2f42;
+}
+.modal-btn-portfolio {
+  padding: 16px 32px;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: 'Roboto';
+  letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+font-family: inherit;
+}
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* ================ABOUT US============= */
+.third-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--prime-color-font);
+}
+
+.about-discr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ================What we doing========= */
+.second-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--prime-color-font);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ================Our Team======= */
+
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--prime-color-font);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.name-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--prime-color-font);
+}
+
+.dscr-prof {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.bg-color-section {
+  background-color: #f4f4fd;
+}
+
+/* ===============Footr============ */
+.footer-dcr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+.footer-color {
+  background-color: #2e2f42;
+}
+
+.span-white {
+  color: #f4f4fd;
+}
+/* ================Sections ================ */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
